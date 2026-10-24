@@ -1,0 +1,10 @@
+# Django + ChatterBot Terminal Client -- dependency manifest
+# Requires Python 3.10 - 3.14.
+# Install everything listed here with:  pip install -r requirements.txt
+
+Django==5.2.18        # Web framework: settings, ORM/SQLite storage, manage.py commands
+ChatterBot==1.2.15    # Machine-learning conversational dialog engine
+spacy==3.8.16         # Natural-language processing library ChatterBot uses to tag text
+
+# English language model for spaCy (ChatterBot loads it at start-up)
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
