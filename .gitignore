@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local database (recreate with: python manage.py migrate && python manage.py train_bot)
+db.sqlite3
+db.sqlite3-journal
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Word lock files
+~$*.docx
